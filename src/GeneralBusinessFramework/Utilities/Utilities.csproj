@@ -90,7 +90,7 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
-    <Compile Include="RedisHelperBase.cs" />
+    <Compile Include="RedisHelper.cs" />
     <Compile Include="SettingsHelper.cs" />
   </ItemGroup>
   <ItemGroup>
