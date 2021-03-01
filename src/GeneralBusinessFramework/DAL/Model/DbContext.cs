@@ -5,13 +5,14 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
+using Utilities;
 
 namespace DAL.Model
 {
     public class AzureDbContext: DbContext
     {
         public AzureDbContext() :
-            base(@"Data Source=localhost;Initial Catalog=DotNetStudy;Persist Security Info=True;User ID=sa;Password=sa")
+            base(SettingsHelper.GetStringValue("DbConnString"))
         {
 
         }

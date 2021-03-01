@@ -5,10 +5,10 @@ using System.Text;
 using System.Threading.Tasks;
 using NUnit.Framework;
 
-namespace Main.WebApi.IntegrationTests
+namespace Utilities.IntegrationTests
 {
     [TestFixture]
-    public class ConstantIntegrationTests
+    public class ConstantTests
     {
         [Test]
         public void ConstResult_Return_True()
